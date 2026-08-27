@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Centers for Disease Control and Prevention",
+    "type": "Government public health",
+    "tier": 1,
+    "url": "https://www.cdc.gov/"
+  },
+  {
+    "name": "National Institutes of Health",
+    "type": "Government research",
+    "tier": 1,
+    "url": "https://www.nih.gov/"
+  },
+  {
+    "name": "National Institute of Diabetes and Digestive and Kidney Diseases",
+    "type": "Government medical research",
+    "tier": 1,
+    "url": "https://www.niddk.nih.gov/"
+  },
+  {
+    "name": "World Health Organization",
+    "type": "International public health organization",
+    "tier": 1,
+    "url": "https://www.who.int/"
+  },
+  {
+    "name": "American Diabetes Association",
+    "type": "Professional medical organization",
+    "tier": 2,
+    "url": "https://diabetes.org/"
+  },
+  {
+    "name": "American Association of Clinical Endocrinology",
+    "type": "Professional medical organization",
+    "tier": 2,
+    "url": "https://www.aace.com/"
+  },
+  {
+    "name": "American Gastroenterological Association",
+    "type": "Professional medical organization",
+    "tier": 2,
+    "url": "https://gastro.org/"
+  },
+  {
+    "name": "American College of Physicians",
+    "type": "Professional medical organization",
+    "tier": 2,
+    "url": "https://www.acponline.org/"
+  },
+  {
+    "name": "American Heart Association",
+    "type": "Professional medical organization",
+    "tier": 2,
+    "url": "https://www.heart.org/"
+  },
+  {
+    "name": "European Association for the Study of Diabetes",
+    "type": "Professional medical organization",
+    "tier": 2,
+    "url": "https://www.easd.org/"
+  }
+]
