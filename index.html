@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Noise-Clean | Evidence & Claim Verification</title>
+
+  <meta
+    name="description"
+    content="Noise-Clean is an evidence-quality and health-claim verification prototype."
+  >
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <div>
+        <div class="brand">NOISE-CLEAN</div>
+        <div class="tagline">Evidence & Claim Verification</div>
+      </div>
+
+      <div class="prototype-badge">
+        MVP 0.1
+      </div>
+    </div>
+  </header>
+
+
+  <main class="container">
+
+    <section class="hero">
+      <h1>Separate health information from health noise.</h1>
+
+      <p>
+        Enter a health claim and receive a preliminary evidence assessment
+        based on transparent rules and a trusted-source hierarchy.
+      </p>
+    </section>
+
+
+    <section class="card">
+
+      <label for="claim">
+        <strong>Enter a health claim</strong>
+      </label>
+
+      <textarea
+        id="claim"
+        placeholder="Example: Drinking lemon water cures diabetes."
+        rows="5"
+      ></textarea>
+
+      <button id="analyzeButton">
+        Analyze Claim
+      </button>
+
+      <p class="disclaimer">
+        Prototype only. This tool does not provide medical diagnosis or
+        individualized medical advice.
+      </p>
+
+    </section>
+
+
+    <section id="results" class="results hidden">
+
+      <div class="result-header">
+
+        <div>
+          <div class="eyebrow">PRELIMINARY ASSESSMENT</div>
+
+          <h2 id="resultLabel">
+            —
+          </h2>
+        </div>
+
+        <div class="score-box">
+          <span id="score">0</span>
+          <small>/ 10</small>
+        </div>
+
+      </div>
+
+
+      <div class="result-section">
+
+        <h3>Why did Noise-Clean give this result?</h3>
+
+        <ul id="reasons"></ul>
+
+      </div>
+
+
+      <div class="result-section">
+
+        <h3>Claim characteristics</h3>
+
+        <div id="claimFlags" class="flags"></div>
+
+      </div>
+
+
+      <div class="result-section">
+
+        <h3>Relevant source hierarchy</h3>
+
+        <div id="sources"></div>
+
+      </div>
+
+    </section>
+
+
+    <section class="how-it-works">
+
+      <h2>How Noise-Clean works</h2>
+
+      <div class="steps">
+
+        <div class="step">
+          <span>1</span>
+          <h3>Identify</h3>
+          <p>Break the statement into a health claim.</p>
+        </div>
+
+        <div class="step">
+          <span>2</span>
+          <h3>Evaluate</h3>
+          <p>Look for characteristics that require stronger evidence.</p>
+        </div>
+
+        <div class="step">
+          <span>3</span>
+          <h3>Score</h3>
+          <p>Apply a transparent preliminary scoring system.</p>
+        </div>
+
+        <div class="step">
+          <span>4</span>
+          <h3>Verify</h3>
+          <p>Compare the claim against higher-quality evidence.</p>
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <footer>
+
+    <div class="container">
+
+      <p>
+        Noise-Clean MVP 0.1
+      </p>
+
+      <p>
+        Built as an evidence-verification prototype.
+      </p>
+
+    </div>
+
+  </footer>
+
+
+  <script src="app.js"></script>
+
+</body>
+</html>
